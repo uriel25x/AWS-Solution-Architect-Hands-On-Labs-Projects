@@ -20,7 +20,7 @@ The application is deployed across multiple Availability Zones, uses an Applicat
 
 ## 🏗 Architecture Overview
 The solution follows a **three-tier architecture** within a single AWS Region:
-
+![Architecture Diagram](images/architecture.png)
 ### Public Layer
 - Application Load Balancer (ALB)
 - Deployed across multiple public subnets
