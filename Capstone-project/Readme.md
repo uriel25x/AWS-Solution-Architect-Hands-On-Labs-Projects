@@ -59,7 +59,7 @@ The solution follows a **three-tier architecture** within a single AWS Region:
 
 ## ⚙️ Implementation Steps
 1. Created an Amazon RDS MySQL database using private subnets
-   <p align="center">
+    <p align="center">
   <img src="images/1.png" width="800">
   <img src="images/2.png" width="800">
   <img src="images/3.png" width="800">
@@ -70,8 +70,8 @@ The solution follows a **three-tier architecture** within a single AWS Region:
   <img src="images/8.png" width="800">
   <img src="images/9.png" width="800">
 </p>
-3. Deployed an Application Load Balancer across public subnets
-   <p align="center">
+2. Deployed an Application Load Balancer across public subnets
+    <p align="center">
   <img src="images/10.png" width="800">
   <img src="images/11.png" width="800">
   <img src="images/12.png" width="800">
@@ -79,7 +79,7 @@ The solution follows a **three-tier architecture** within a single AWS Region:
   <img src="images/14.png" width="800">
   <img src="images/15.png" width="800">
 </p>
-4. Created an Auto Scaling Group using a Launch Template
+3. Created an Auto Scaling Group using a Launch Template
    <p align="center">
   <img src="images/16.png" width="800">
   <img src="images/17.png" width="800">
@@ -91,7 +91,7 @@ The solution follows a **three-tier architecture** within a single AWS Region:
   <img src="images/23.png" width="800">
   <img src="images/24.png" width="800">
 </p>
-5. Migrated MySQL data using an SQL dump file
+4. Migrated MySQL data using an SQL dump file
    <p align="center">
   <img src="images/25.png" width="800">
   <img src="images/26.png" width="800">
@@ -101,7 +101,7 @@ The solution follows a **three-tier architecture** within a single AWS Region:
   <img src="images/30.png" width="800">
   <img src="images/31.png" width="800">
 </p>
-6. Validated application functionality through the ALB endpoint
+5. Validated application functionality through the ALB endpoint
    <p align="center">
   <img src="images/32.png" width="800">
   <img src="images/33.png" width="800">
