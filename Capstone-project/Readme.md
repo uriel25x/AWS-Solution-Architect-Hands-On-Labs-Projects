@@ -59,12 +59,53 @@ The solution follows a **three-tier architecture** within a single AWS Region:
 
 ## ⚙️ Implementation Steps
 1. Created an Amazon RDS MySQL database using private subnets
-2. Stored database credentials in AWS Secrets Manager
+   <p align="center">
+  <img src="images/1.png" width="800">
+  <img src="images/2.png" width="800">
+  <img src="images/3.png" width="800">
+  <img src="images/4.png" width="800">
+  <img src="images/5.png" width="800">
+  <img src="images/6.png" width="800">
+  <img src="images/7.png" width="800">
+  <img src="images/8.png" width="800">
+  <img src="images/9.png" width="800">
+</p>
 3. Deployed an Application Load Balancer across public subnets
+   <p align="center">
+  <img src="images/10.png" width="800">
+  <img src="images/11.png" width="800">
+  <img src="images/12.png" width="800">
+  <img src="images/13.png" width="800">
+  <img src="images/14.png" width="800">
+  <img src="images/15.png" width="800">
+</p>
 4. Created an Auto Scaling Group using a Launch Template
+   <p align="center">
+  <img src="images/16.png" width="800">
+  <img src="images/17.png" width="800">
+  <img src="images/18.png" width="800">
+  <img src="images/19.png" width="800">
+  <img src="images/20.png" width="800">
+  <img src="images/21.png" width="800">
+  <img src="images/22.png" width="800">
+  <img src="images/23.png" width="800">
+  <img src="images/24.png" width="800">
+</p>
 5. Migrated MySQL data using an SQL dump file
+   <p align="center">
+  <img src="images/25.png" width="800">
+  <img src="images/26.png" width="800">
+  <img src="images/27.png" width="800">
+  <img src="images/28.png" width="800">
+  <img src="images/29.png" width="800">
+  <img src="images/30.png" width="800">
+  <img src="images/31.png" width="800">
+</p>
 6. Validated application functionality through the ALB endpoint
-
+   <p align="center">
+  <img src="images/32.png" width="800">
+  <img src="images/33.png" width="800">
+</p>
 ---
 
 ## 🧪 Verification & Testing
